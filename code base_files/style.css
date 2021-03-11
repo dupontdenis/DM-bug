@@ -41,7 +41,7 @@ div#Tab a span {
   position: absolute;
   top: 200px;
   margin: auto;
-
+  display: none;
   width: 600px;
   height: 500px;
   z-index: 1;
@@ -49,7 +49,7 @@ div#Tab a span {
 }
 
 div#Tab a:hover span {
-  z-index: 10;
+  display: block;
 }
 
 .small {
