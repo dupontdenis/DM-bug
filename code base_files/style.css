@@ -44,12 +44,12 @@ div#Tab a span {
 
   width: 600px;
   height: 500px;
-  z-index: 10;
+  z-index: 1;
   background-color: white;
 }
 
 div#Tab a:hover span {
-  z-index: 1;
+  z-index: 10;
 }
 
 .small {
